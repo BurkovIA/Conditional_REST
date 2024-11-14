@@ -1,7 +1,6 @@
 package com.example.Conditional;
 import org.springframework.stereotype.Component;
 
-@Component
 public class DevProfile implements SystemProfile {
     @Override
     public String getProfile() {
